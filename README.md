@@ -1,6 +1,5 @@
 # Kick-MEP Algorithm
 
-# Kick-Fukui Algorithm
 
 ![alt text](https://github.com/HumanOsv/Logos/blob/master/Gihub.jpg)
 
