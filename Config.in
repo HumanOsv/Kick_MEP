@@ -1,0 +1,29 @@
+
+#                                                         #
+########### The Basic Parameters of Kick-MEP ############
+#                                                         #
+
+# The Initial Population size (1000N, N = Atoms number)
+initial_species = 100000
+
+# Number of final geometries
+final_species = 100
+
+## Name of molecular species in the simulation
+# File 1
+Mol_1 = Li6Si6_1.frag    
+# File 2
+Mol_2 = Li6Si6_2.frag 
+
+# Box size the sum of the sides from both molecules multiply for a factor (Default 1)
+# The factor size or size of the box (in Angstroms) length, width, and height.
+box_size_factor = 0.8
+
+# Order Coulombic-Interaction Value (J) in a descending (YES) or scholastic (NO) manner
+energy_order = YES
+
+# Search for duplicate molecular species (YES/NO)
+duplicate_species = NO
+
+# Output xyz file name
+output_file_name = Li12Si12_R18
